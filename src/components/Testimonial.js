@@ -8,7 +8,6 @@ const PreviousBtn = (props) => {
     const { className, onClick } = props;
     return (
         <div style={{backgroundColor:"red"}} className={className} onClick={onClick}>
-            <p>PREVIOUS</p>
         </div>
     );
 };
@@ -16,7 +15,6 @@ const NextBtn = (props) => {
     const { className, onClick } = props;
     return (
         <div style={{backgroundColor:"red"}} className={className} onClick={onClick}>
-            <p>NEXT</p>
         </div>
     );
 };
@@ -25,7 +23,7 @@ const Testimonial = () => {
     return (
         <div
             className="testimonial"
-            style={{ display: "flex", justifyContent: "center", marginTop: 50 }}
+            style={{ display: "flex", justifyContent: "center" }}
         >
             <div style={{ width: "50%", textAlign: "center" }}>
                 <h1 style={{ marginBottom: 20 }}>TESTIMONIALS</h1>
