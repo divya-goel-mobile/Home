@@ -1,0 +1,65 @@
+.mainGoalContainer {
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.mainGoalContainer .title {
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 20px
+}
+
+.mainGoalContainer .desc {
+    font-size: 20px;
+}
+
+.mainGoalContainer .cardMainContainer {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 30px;
+    width: 264px;
+    height: 460px;
+    position: relative
+}
+
+.mainGoalContainer .cardInnerContainer {
+    width: 264px;
+    height: 440px;
+    background-color: white;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.mainGoalContainer .cardImage {
+    width: 264px;
+    height: 175px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.mainGoalContainer .cardName {
+    margin-left: 22px; 
+    font-size: 20px; 
+    font-weight: bold
+}
+.mainGoalContainer .cardDesc {
+    margin-left: 22px; 
+    font-size:18px
+}
+.mainGoalContainer .dotContainer {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    border-radius: 15px;
+}
+.mainGoalContainer .arrow {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
