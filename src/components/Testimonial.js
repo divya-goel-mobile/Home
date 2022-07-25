@@ -7,14 +7,14 @@ const PreviousBtn = (props) => {
     console.log(props);
     const { className, onClick } = props;
     return (
-        <div style={{ backgroundColor: "red", position: "absolute", left: 10 }} className={className} onClick={onClick}>
+        <div style={{ position: "absolute", left: 10 }} className={className} onClick={onClick}>
         </div>
     );
 };
 const NextBtn = (props) => {
     const { className, onClick } = props;
     return (
-        <div style={{ backgroundColor: "red", position: "absolute", right: 10 }} className={className} onClick={onClick}>
+        <div style={{position: "absolute", right: 10 }} className={className} onClick={onClick}>
             {"&#x2190;"}
         </div>
     );
