@@ -1,5 +1,5 @@
 //import Banner from '../../AppBanner/src/components/banner'
-import {Banner} from '@app/appBanner'
+// import {Banner} from '@app/appBanner'
 import Claims from './components/Claims';
 import InsuranceForLife from './components/InsuranceForLife';
 import Products from './components/Products';
@@ -10,6 +10,7 @@ import PersonalizedInsight from './components/personalizedInsight';
 export default function Root(props) {
     return  (
       <div style={{backgroundColor:"#f8f9fa"}}>
+        <Testimonial/>
     {/* <Banner text={"Forget Everything You Know About Insurance"} subText={"Instant everything. Incredible prices. Big heart."}/> */}
     <div style={{height: 50}}></div>
     <InsuranceForLife />

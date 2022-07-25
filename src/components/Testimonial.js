@@ -7,68 +7,58 @@ const PreviousBtn = (props) => {
     console.log(props);
     const { className, onClick } = props;
     return (
-        <div style={{backgroundColor:"red"}} className={className} onClick={onClick}>
+        <div style={{ backgroundColor: "red", position: "absolute", left: 10 }} className={className} onClick={onClick}>
         </div>
     );
 };
 const NextBtn = (props) => {
     const { className, onClick } = props;
     return (
-        <div style={{backgroundColor:"red"}} className={className} onClick={onClick}>
+        <div style={{ backgroundColor: "red", position: "absolute", right: 10 }} className={className} onClick={onClick}>
+            {"&#x2190;"}
         </div>
     );
 };
 
 const Testimonial = () => {
     return (
-        <div
-            className="testimonial"
-            style={{ display: "flex", justifyContent: "center" }}
-        >
-            <div style={{ width: "50%", textAlign: "center" }}>
-                <h1 style={{ marginBottom: 20 }}>TESTIMONIALS</h1>
-                <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} dots>
-                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/1.jpg" />
-                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/2.jpg" />
-                    <Card img="https://www.tutorialrepublic.com/examples/images/clients/3.jpg" />
-                </Slider>
+        <div>
+            <div
+                className="testimonial"
+                style={{ display: "flex", justifyContent: "center", marginTop: -30 }}
+            >
+                <div style={{ width: "90%", textAlign: "center" }}>
+                    <Slider prevArrow={<PreviousBtn />} nextArrow={<NextBtn />} >
+                        <Card img="https://www.prudential.com.sg/-/media/project/prudential/images/products/promotions/inspire-to-dream-big/carousel-inspiretodreambig2b.png?h=588&w=1440&hash=A57A83BBB7D80A3BCB35F85A373D5102" title="PRULink InvestGrowth" desc="An investment-linked plan that provides all-round flexibility that lets you build wealth your way." />
+                        <Card img="https://www.prudential.com.sg/-/media/project/prudential/images/products/promotions/wedofamily/1360x560.jpg?h=560&w=1360&hash=CB8AC583F84E104980A520DEBB75F9E5" title="We Do Family" desc="Enjoy rewards of up to 15.0% of first-year premium on selected insurance plans" />
+                        <Card img="https://www.prudential.com.sg/-/media/project/prudential/images/products/health-protection/medical/prushield/1366x540.jpg?h=540&w=1366&hash=C1096C5A5A99F96DE914ECA42A57C4EA" title="Inspire to Dream Big III" desc="Enjoy single premium discounts on selected insurance plans." />
+                    </Slider>
+                </div>
+            </div>
+            <div className="blueContainer">
+                <p className="needHelp">Need help</p>
+                <p className="whatYouNeed">finding what you need?</p>
+                <div className="searchContainer">
+                    <span className="seachIcon">&#x1F50E;</span>
+                    <p>Search Products, topics, concerns and more...</p>
+                </div>
             </div>
         </div>
     );
 }
 
-const Card = ({ img }) => {
+const Card = ({ img, title, desc }) => {
     return (
-        <div
-            style={{
-                display: "flex",
-                alignItems: "center",
-                flexDirection: "column",
-                textAlign: "center",
-                color: "gray",                
-            }}
-        >
+        <div className="cardContainer">
             <img
                 src={img}
-                style={{
-                    width: 120,
-                    height: 120,
-                    border: "1px solid lightgray",
-                    padding: 7,
-                    marginBottom: 20,
-                    borderRadius: 70
-                }}
+                className={"cardImage"}
             />
-            <p>
-                Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia.
-                Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
-                tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt
-                fringilla massa. Etiam hendrerit dolor eget rutrum
-            </p>
-            <p style={{ fontStyle: "italic", marginTop: 25 }}>
-                <span style={{ fontWeight: 500, color: "green" }}>PAULA WILSON</span> ,
-                Media Analyst
-            </p>
+            <div className="cardDetailView">
+                <p className="cardTitle">{title}</p>
+                <p className="cardDesc">{desc}</p>
+                <button className="redButton">Find out more</button>
+            </div>
         </div>
     );
 };

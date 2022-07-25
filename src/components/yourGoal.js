@@ -34,7 +34,7 @@ const Card = ({ data }) => {
                 <p className="cardDesc">{data.desc}</p>
             </div>
             <div className="dotContainer">
-                <span className="arrow">{">"}</span>
+                <span className="arrow">&#60;</span>
             </div>
 
         </div>
