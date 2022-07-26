@@ -56,10 +56,9 @@
     position: absolute;
     right: 30px;
     bottom: 5px;
-    border-radius: 15px;
+    display: flex;
 }
 .mainGoalContainer .arrow {
     color: white;
     font-size: 20px;
-    margin-left: 10px;
 }
