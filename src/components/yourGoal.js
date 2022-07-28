@@ -6,16 +6,15 @@ import "../styles/yourGoal.css"
 
 const YourGoal = () => {
     const goalList = [
-        { id: 1, name: 'Health Protection', desc: "Our medical, personal accident and critical illness health protection insurance plans can help manage potential medical costs, so that you can focus on living your best life.", image: Card1 },
-        { id: 2, name: 'Life Protection', desc: "Our life protection insurance plans help keep your family financially secure in the event of the unexpected, such as disability or death.", image: Card2 },
-        { id: 3, name: 'Wealth Accumulation', desc: "Grow your wealth and steer towards your financial aspirations with our suite of savings, retirement and investment-linked insurance plans.", image: Card3 },
-        { id: 4, name: 'Legacy Planning', desc: "Build your legacy plan with the potential to grow and preserve wealth towards a secure future that lasts for generations.", image: Card4 },
+        { id: 1, name: 'ESG at Prudential', desc: "Creating a better future together with you...", image: Card1 },
+        { id: 2, name: 'ESG at Prudential', desc: "How we manage our direct impact on the environment", image: Card2 },
+        { id: 3, name: 'ESG at Prudential', desc: "How we make a difference through Responsible Investing", image: Card3 },
     ];
     return (
 
         <div className="mainGoalContainer">
-            <p className="title"><strong>Your goals.</strong> Make them <br />happen.</p>
-            <p className="desc">Let us help you find the right solutions to take care of<br />what’s important to you and your family.</p>
+            <p className="title"><strong>Insights</strong></p>
+            <p className="desc">Prudential plc provides life and health insurance and asset management, with a focus on Asia and Africa. We help people get the most out of life, by making healthcare affordable and accessible and by promoting financial inclusion. We protect people’s wealth, help them grow their assets, and empower them to save for their goals. The business has more than 18 million customers in Asia and Africa. We are no longer affiliated with Prudential UK and Europe (Prudential Assurance Company Ltd), as this business became part of M&G plc in October 2019. Customers and advisers of Prudential UK and Europe should visit www.pru.co.uk for information and contact details for this business.</p>
             <div style={{ display: "flex", overflow: 'auto' }}>
                 {goalList.map(data => (
                     <Card key={data.id} data={data} />

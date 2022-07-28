@@ -32,7 +32,10 @@
     .grayInnerContainer {
       width: 70%;
       margin-left: 30%;
-
+    }
+    .innerContainer {
+        height: 85%;
+        width: 85%;
     }
 }
 

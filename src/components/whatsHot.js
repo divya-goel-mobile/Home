@@ -1,11 +1,11 @@
-import Card6 from "../assets/card-6.png";
-import Card5 from "../assets/card-5.jpg";
+import Card7 from "../assets/card-7.jpg";
+import Card8 from "../assets/card-8.png";
 import "../styles/whatsHot.css"
 
 const whatsHot = () => {
     const hotList = [
-        { id: 1, name: 'Inspire to dream big!!', desc: "Enjoy single premium discounts on selected insurance plans.", image: Card6 },
-        { id: 2, name: 'We Do Family', desc: "Enjoy rewards of up to 15.0% of first-year premium on selected insurance plans.", image: Card5 },
+        { id: 1, name: 'Our health and  wellbeing services', desc: "Pulse by Prudential, our health and wellbeing super-app, is transforming our business. Now available in 17 markets and 11 languages across Asia and Africa, Pulse has rapidly become one of Asia’s most popular health ecosystems", image: Card7 },
+        { id: 2, name: 'Prudence Foundation', desc: "Prudence Foundation’s strategy is focused around health and resilience issues relevant to the communities in which we operate, education, particularly financial education, and building resilience across communities.", image: Card8 },
     ];
     return (
         <div className="mainContainer">

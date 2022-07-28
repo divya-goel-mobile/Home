@@ -4,9 +4,8 @@ const InsuranceForLife = () => {
         <div className="mainCotainer">
             <div className="grayInnerContainer" />
             <div className="innerContainer">
-                <p className="header"><strong>Insurance</strong> For Life</p>
-                <p className="description" >With the right insurance plans to protect you against hefty medical expenses and unexpected events, you can save for a better future and ensure that your loved ones are financially secure.</p>
-                <p className="description" >At Prudential, our insurance plans are designed to see you through every life stage - and beyond.</p>
+                <p className="header"><strong>Our health</strong> and <strong>wellbeing</strong> services </p>
+                <p className="description" >Pulse by Prudential, our health and wellbeing super-app, is transforming our business. Now available in 17 markets and 11 languages across Asia and Africa, Pulse has rapidly become one of Asia’s most popular health ecosystems</p>
             </div>
         </div>
     )

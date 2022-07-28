@@ -95,7 +95,8 @@
   font-size: 30px;
   color:black;
   text-align:left; 
-  margin: 20px
+  margin: 20px;
+  margin-bottom: 1px;
 }
 .cardDesc {
   font-size: 18px;
@@ -112,8 +113,15 @@
   margin-left: 20px;
   color: white;
   font-size: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 30px;
 }
 .seachIcon {
  margin: 10px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .cardDetailView {
+    width: 8%;
+  }
 }
