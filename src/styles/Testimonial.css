@@ -49,7 +49,7 @@
 
 .whatYouNeed {
   margin-left: 10px;
-  font-size: 40px
+  font-size: 40px;
 }
 
 .searchContainer {
@@ -71,7 +71,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  color: red;
+  color: #ed1b2e;
   width: 100%;
 }
 .testimonial .cardImage {
@@ -80,10 +80,9 @@
   padding: 7px;
   margin-bottom: 80px;
   border-radius: 10px;
-
 }
 .cardDetailView {
-  background-color:white; 
+  background-color: white;
   width: 6%;
   position: absolute;
   border-radius: 10px;
@@ -93,19 +92,19 @@
 }
 .cardTitle {
   font-size: 30px;
-  color:black;
-  text-align:left; 
+  color: black;
+  text-align: left;
   margin: 20px;
   margin-bottom: 1px;
 }
 .cardDesc {
   font-size: 18px;
-  color:black;
-  text-align:left; 
+  color: black;
+  text-align: left;
 }
 .redButton {
   background-color: red;
-  border-color:red;
+  border-color: red;
   border-style: solid;
   width: 200px;
   height: 50px;
@@ -116,9 +115,8 @@
   margin-bottom: 30px;
 }
 .seachIcon {
- margin: 10px;
+  margin: 10px;
 }
-
 
 @media only screen and (max-width: 700px) {
   .cardDetailView {

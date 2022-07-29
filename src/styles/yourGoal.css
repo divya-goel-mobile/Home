@@ -1,66 +1,67 @@
 .mainGoalContainer {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .mainGoalContainer .title {
-    font-size: 50px;
-    margin-top: 70px;
-    margin-bottom: 20px
+  font-size: 50px;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
 
 .mainGoalContainer .desc {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .mainGoalContainer .cardMainContainer {
-    display: flex;
-    align-items: left;
-    flex-direction: column;
-    text-align: left;
-    margin-right: 30px;
-    width: 264px;
-    height: 350px;
-    position: relative
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 30px;
+  width: 264px;
+  height: 350px;
+  position: relative;
 }
 
 .mainGoalContainer .cardInnerContainer {
-    width: 264px;
-    height: 340px;
-    background-color: white;
-    border-radius: 10px;
-    flex-direction: column;
+  width: 264px;
+  height: 340px;
+  background-color: white;
+  border-radius: 10px;
+  flex-direction: column;
 }
 
 .mainGoalContainer .cardImage {
-    width: 264px;
-    height: 175px;
-    margin-bottom: 20px;
-    object-fit: contain;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  width: 264px;
+  height: 175px;
+  margin-bottom: 20px;
+  object-fit: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .mainGoalContainer .cardName {
-    margin-left: 22px; 
-    font-size: 20px; 
-    font-weight: bold;
-    margin-top: 10px;
+  margin-left: 22px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 .mainGoalContainer .cardDesc {
-    margin-left: 22px; 
-    font-size:18px;
-    margin-top: 10px;
+  margin-left: 22px;
+  font-size: 18px;
+  margin-top: 10px;
 }
 .mainGoalContainer .dotContainer {
-    background-color: red;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 30px;
-    bottom: 5px;
-    display: flex;
+  background-color: #ed1b2e;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  display: flex;
+  border: 1px solid #ed1b2e;
 }
 .mainGoalContainer .arrow {
-    color: white;
-    font-size: 20px;
+  color: white;
+  margin-left: 3px;
 }

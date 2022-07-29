@@ -49,7 +49,7 @@
 
 .purpose .whatYouNeed {
   margin-left: 10px;
-  font-size: 40px
+  font-size: 40px;
 }
 
 .purpose .searchContainer {
@@ -80,10 +80,9 @@
   padding: 7px;
   margin-bottom: -10px;
   border-radius: 10px;
-
 }
 .purpose .cardDetailView {
-  background-color: white; 
+  background-color: white;
   width: 6%;
   position: absolute;
   border-radius: 10px;
@@ -93,22 +92,22 @@
 }
 .purpose .cardTitle {
   font-size: 30px;
-  color:black;
-  text-align:left; 
+  color: #ed1b2e;
+  text-align: left;
   margin: 20px;
   margin-bottom: 1px;
 }
 .purpose .cardDesc {
-  font-size: 45px;
-  color:black;
-  text-align:left; 
+  font-size: 40px;
+  color: black;
+  text-align: left;
   margin-top: 10px;
 }
 .purpose .redButton {
-  background-color: red;
-  border-color:red;
+  background-color: #ed1b2e;
+  border-color: #ed1b2e;
   border-style: solid;
-  width: 200px;
+  width: 80%;
   height: 50px;
   border-radius: 30px;
   margin-left: 20px;
@@ -117,7 +116,7 @@
   margin-bottom: 30px;
 }
 .purpose .seachIcon {
- margin: 10px;
+  margin: 10px;
 }
 .purpose .stockExchangeContainer {
   width: 100%;
@@ -144,17 +143,17 @@
     height: 60%;
   }
   .purpose .cardTitle {
-    font-size: 20px;
+    font-size: 18px;
   }
   .purpose .cardDesc {
-    font-size: 35px;
+    font-size: 30px;
   }
   .purpose .stockExchangeDetail {
-    font-size: 14px;
+    font-size: 13px;
     margin: 5px;
   }
   .purpose .stockExchangeDetailValue {
-    font-size: 14px;
+    font-size: 13px;
     margin: 5px;
     font-weight: bold;
   }

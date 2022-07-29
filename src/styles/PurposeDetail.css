@@ -1,0 +1,31 @@
+.purposeDetail .stockExchangeContainer {
+  width: 100%;
+  background-color: rgba(84, 104, 133, 0.2);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.purposeDetail .stockExchangeDetail {
+  font-size: 18px;
+  margin: 5px;
+}
+.purposeDetail .stockExchangeDetailValue {
+  font-size: 18px;
+  margin: 5px;
+  font-weight: bold;
+}
+@media only screen and (max-width: 700px) {
+  .purposeDetail .stockExchangeDetail {
+    font-size: 14px;
+  }
+  .purposeDetail .stockExchangeDetailValue {
+    font-size: 14px;
+  }
+  .purposeDetail .stockExchangeContainer {
+    height: 150px;
+    margin-top: 30px;
+  }
+}
