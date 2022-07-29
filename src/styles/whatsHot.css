@@ -6,7 +6,6 @@
 }
 .title {
     font-size: 50px;
-    margin-top: 70px;
     margin-bottom: 20px
 }
 
@@ -21,7 +20,7 @@
     margin-right: 30px;
     width: 566px;
     height: 313px;
-    position: relative
+    position: relative;
 }
 
 .cardInnerContainer {
@@ -31,6 +30,7 @@
     border-radius: 10px;
     flex-direction: row;
     display: flex;
+   
 }
 
 .cardImage {
@@ -70,4 +70,17 @@
     color: white;
     font-size: 20px;
     margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .cardMainContainer {
+        width: 250px;
+        height: 490px;
+    }
+    .cardInnerContainer {
+        flex-direction: column;
+        height: 470px;
+    }
+    .cardImage {
+        width: 250px;
+    }
 }
